@@ -6,7 +6,8 @@ This is a Python script that allows you to add random topics to a GitHub reposit
 
 1. Clone this repository using `git clone https://github.com/your_username/your_repository_name.git`.
 2. Change into the cloned directory using `cd your_repository_name`.
-3. Install the required dependencies using ```pip install os random requests```.
+3. Install the required dependencies using :
+ ```pip install os random requests```
 
 ## Usage
 
