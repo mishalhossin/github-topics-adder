@@ -27,7 +27,7 @@ pip install os random requests
 python topics_adder.py
 ```
 
-The script will select (note 20 is the max topics for github) 20 random topics from your `wordlist.txt` file, and add them to your repository's topics using the GitHub API. The topics will be added every 20 seconds until the script is terminated.
+The script will select 20 random topics from your `wordlist.txt` file, and add them to your repository's topics using the GitHub API. The topics will be added every 20 seconds until the script is terminated. (note : 20 is the max topics for githubrep) 
 
 ## Wordlist Validator
 
