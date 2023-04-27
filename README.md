@@ -19,10 +19,13 @@ pip install os random requests
 
 ## Usage
 
-1. Replace `your_username` and `your_repository_name` with your actual GitHub username and repository name, respectively.
+1. Replace `your_username` and `your_repository_name` with your actual GitHub username and repository name, respectively in `topics_adder.py`
 2. Set your GitHub access token as an environment variable named `ACCESS_TOKEN`.
 3. Create a wordlist of topics in a file named `wordlist.txt`, with one topic per line.
-4. Run the script using `python topics_adder.py`.
+4. Run the script using 
+```
+python topics_adder.py
+```
 
 The script will select 20 random topics from your `wordlist.txt` file, and add them to your repository's topics using the GitHub API. The topics will be added every 20 seconds until the script is terminated.
 
